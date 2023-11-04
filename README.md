@@ -12,6 +12,7 @@ before running any script in this repository.
 1. Cholesky Decomposition
 1. Modified Gram-Schmidt Algorithm
 1. Full QR Decomposition
+1. Singular Value Decomposition
 
 ### Numerically Unstable Algorithms
 1. Gaussian Elimination 
