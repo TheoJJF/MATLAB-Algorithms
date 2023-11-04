@@ -2,7 +2,7 @@ function x = backward_substitution(A,b)
     n = size(A,1);
 
     if ((size(A,2) ~= n) || (size(b,1) ~= n) || (size(b,2) ~= 1))
-        error('Mismatch Size');
+        error('Mismatch size');
     end
 
     if (tril(A,-1) ~= zeros(n))

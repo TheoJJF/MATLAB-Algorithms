@@ -2,12 +2,12 @@ function x = gaussian_elimination(A,b)
     n = size(A,1);
 
     if ((size(A,2) ~= n) || (size(b,1) ~= n) || (size(b,2) ~= 1))
-        error('Mismatch Size');
+        error('Mismatch size');
     end
 
     for i = 1:n
         if (A(i,i) == 0)
-            error('Requires Partial Pivoting')
+            error('Requires partial pivoting')
         end
 
         for j = (i+1):n
