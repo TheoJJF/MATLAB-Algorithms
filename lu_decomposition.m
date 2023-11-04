@@ -1,4 +1,4 @@
-function [L,U] = lu_decomposition.m
+function [L,U] = lu_decomposition.m(A)
     n = size(A,1);
 
     for i = 1:n
