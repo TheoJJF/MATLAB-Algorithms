@@ -1,5 +1,6 @@
-function [L,U] = lu_decomposition.m(A)
+function [L,U] = lu_decomposition(A)
     n = size(A,1);
+    L = zeros(n);
 
     for i = 1:n
         if (A(i,i) == 0)

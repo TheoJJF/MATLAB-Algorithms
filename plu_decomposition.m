@@ -1,5 +1,7 @@
 function [L,U,P] = plu_decomposition(A)
-    n = size(A,1), P = eye(n);
+    n = size(A,1);
+    P = eye(n);
+    L = zeros(n);
 
     for i = 1:n
         [~,i_star] = max(abs(A(i:n,i)));
@@ -28,7 +30,7 @@ function [L,U,P] = plu_decomposition(A)
             end
         end        
     end
-    
+
     U = A;
     L = L + eye(n);
 end
