@@ -6,7 +6,7 @@ function [L,U] = lu_decomposition.m(A)
             error('Diagonal entries of Matrix A are not all nonzero')
         end
         
-        for j = (i+1):nonzero
+        for j = (i+1):n
             L(j,i) = A(j,i) / A(i,i);
             A(j,i) = 0;
 
