@@ -10,14 +10,12 @@ before running any script in this repository.
 1. Gaussian Elimination with Partial Pivoting
 1. PLU Decomposition
 1. Cholesky Decomposition
-1. Modified Gram-Schmidt Algorithm
 1. Full QR Decomposition
 1. Singular Value Decomposition
 
 ### Numerically Unstable Algorithms
 1. Gaussian Elimination 
 1. LU Decomposition
-1. Classical Gram-Schmidt Algorithm
 1. Reduced QR Decomposition
 
 ## Notes/References
