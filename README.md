@@ -38,6 +38,7 @@ $$O(n^3)$$
 
 ### LU/PLU Decomposition
 $$A=LU$$
+
 $$PA=LU$$
 
 **Time Complexity**
