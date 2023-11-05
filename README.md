@@ -37,7 +37,6 @@ $$O(n^3)$$
 ### LU/PLU Decomposition
 $$A=LU$$
 $$PA=LU$$
-
 **Time Complexity**
 $$O(n^3)\text{, if }A\text{ is non-banded}$$
 $$O(n)\text{, if }A\text{ is banded}$$
