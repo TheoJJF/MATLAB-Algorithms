@@ -43,7 +43,9 @@ $$O(n)\text{, if }A\text{ is banded}$$
 
 ### Cholesky Decomposition
 $$A=R^TR$$
-
+**General Formulas**
+$$r_{ij}=\dfrac{a_{ij}-\displaystyle\sum_{k=1}^{i-1} r_{ki}r_{kj}}{r_{ii}}\text{, } j>i$$
+$$r_{ii}=\sqrt{a_{ii}-\displaystyle\sum_{k=1}^{i-1}r_{ki}^2}\text{, }j=i$$
 
 **Time Complexity**
 $$O(n^3)$$
