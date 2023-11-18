@@ -1,7 +1,6 @@
 # MATLAB - Algorithms
 
-This repository contains a collection of algorithms used in numerical analysis
-and numerical linear algebra. All algorithms are implemented in MATLAB, which means MATLAB must be installed
+This repository contains a collection of algorithms used in numerical linear algebra. All algorithms are implemented in MATLAB, which means MATLAB must be installed
 before running any script in this repository.
 
 ## MATLAB Installation
